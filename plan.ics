@@ -1,0 +1,1035 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//przewodnik//PL
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Wyjazd
+BEGIN:VEVENT
+UID:dzien-1-t955@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261114T085500Z
+DTEND:20261114T090500Z
+SUMMARY:Przejazd: Lądowanie na PRG o 9:55. Kup w aplikacji PID Lítač
+DESCRIPTION:Lądowanie na PRG o 9:55. Kup w aplikacji PID Lítačka bilet
+  72 h (340 CZK). Trolejbus 59 do krańcówki Nádraží Veleslavín\, po
+ tem metro A bez przesiadki do stacji Muzeum (7 przystanków). Razem ok. 
+ 50–55 min\, plecak niesiesz ze sobą.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Przejazd: Lądowanie na PRG o 9:55. Kup w aplikacji PID Líta
+ č
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d1-vaclavak@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261114T101000Z
+DTEND:20261114T102000Z
+SUMMARY:Plac Wacława i Muzeum Narodowe
+DESCRIPTION:Główny plac nowej Pragi i miejsce wielkich zgromadzeń naro
+ dowych. Stań pod pomnikiem św. Wacława i spójrz w dół placu. Co si
+ ę tu działo w 1918\, 1968 i 1989 r.\, przeczytasz pod przyciskiem „R
+ ozwiń historię”.\nProwadź: https://www.google.com/maps/dir/?api=1&d
+ estination=50.079\,14.4307&travelmode=walking
+LOCATION:Václavské náměstí 68\, Praha 1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Plac Wacława i Muzeum Narodowe
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d1-poczta@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261114T102500Z
+DTEND:20261114T104000Z
+SUMMARY:Poczta Główna
+DESCRIPTION:Wnętrze głównej poczty\, neorenesansowy gmach z 1874 r.\, 
+ 3 min od Lucerny. Pomysł z konta @prague.location.\nProwadź: https://w
+ ww.google.com/maps/dir/?api=1&destination=50.08298\,14.42801&travelmode=
+ walking
+LOCATION:Jindřišská 14\, Praha 1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Poczta Główna
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d1-lucerna@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261114T104500Z
+DTEND:20261114T110500Z
+SUMMARY:Pasaż Lucerna
+DESCRIPTION:Secesyjny pasaż\, a pod kopułą rzeźba Davida Černego: ś
+ w. Wacław na koniu zawieszonym do góry nogami\, czyli parodia pomnika 
+ z placu obok.\nProwadź: https://www.google.com/maps/dir/?api=1&destinat
+ ion=50.08113\,14.42582&travelmode=walking
+LOCATION:Vodičkova 36 / Štěpánská 61\, Praha 1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Pasaż Lucerna
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d1-louvre@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261114T111000Z
+DTEND:20261114T115500Z
+SUMMARY:Café Louvre
+DESCRIPTION:Kawiarnia z 1902 roku\, w której bywali Kafka i Einstein. Du
+ ża sala z epoki na odpoczynek po podróży.\nProwadź: https://www.goog
+ le.com/maps/dir/?api=1&destination=50.082014\,14.418599&travelmode=walki
+ ng
+LOCATION:Národní 22\, Praha 1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Café Louvre
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d1-tancici@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261114T121000Z
+DTEND:20261114T122000Z
+SUMMARY:Tańczący Dom
+DESCRIPTION:Ikona architektury lat 90. (Frank Gehry i Vlado Milunić). Wy
+ starczy zobaczyć z zewnątrz.\nProwadź: https://www.google.com/maps/di
+ r/?api=1&destination=50.07543\,14.41417&travelmode=walking
+LOCATION:Jiráskovo náměstí 6\, Praha 2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Tańczący Dom
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d1-zderaze@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261114T122000Z
+DTEND:20261114T123000Z
+SUMMARY:Fotobudka (Na Zderaze)
+DESCRIPTION:Druga z fotobudek z twojej listy (w Pradze jest ich pięć). 
+ Stoi 5 min od Tańczącego Domu\, po drodze na Náplavkę.\nProwadź: ht
+ tps://www.google.com/maps/dir/?api=1&destination=50.07733\,14.41637&trav
+ elmode=walking
+LOCATION:Na Zderaze 1275/15\, Praha 2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fotobudka (Na Zderaze)
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d1-naplavka@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261114T123500Z
+DTEND:20261114T130000Z
+SUMMARY:Targ rolników na Náplavce
+DESCRIPTION:Sobotni targ na nabrzeżu\, na którym Prażanie robią zakup
+ y. Lunch na stojąco od lokalnych producentów\, z widokiem na Wełtawę
+ .\nProwadź: https://www.google.com/maps/dir/?api=1&destination=50.0712\
+ ,14.4139&travelmode=walking
+LOCATION:Rašínovo nábřeží\, przy moście Palackého
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Targ rolników na Náplavce
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d1-foto@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261114T131000Z
+DTEND:20261114T132000Z
+SUMMARY:Fotoautomat (analogowa kabina)
+DESCRIPTION:Analogowa kabina na zdjęcia\, „najsłodsza pamiątka” z 
+ reelsów. Stoi przy trasie\, 5 min od metra Karlovo náměstí.\nProwad
+ ź: https://www.google.com/maps/dir/?api=1&destination=50.07298\,14.4179
+ 7&travelmode=walking
+LOCATION:CAMP\, Vyšehradská 51\, Praha 2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Fotoautomat (analogowa kabina)
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dzien-1-t1420@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261114T132000Z
+DTEND:20261114T133000Z
+SUMMARY:Przejazd: Pieszo ok. 20 min: ulicą Vyšehradská\, potem przez 
+DESCRIPTION:Pieszo ok. 20 min: ulicą Vyšehradská\, potem przez bramę 
+ Táborską na Wyszehrad.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Przejazd: Pieszo ok. 20 min: ulicą Vyšehradská\, potem prz
+ ez 
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d1-vysehrad@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261114T134500Z
+DTEND:20261114T142000Z
+SUMMARY:Wyszehrad
+DESCRIPTION:Starsze wzgórze grodowe Pragi\, prawie bez turystów. Na cme
+ ntarzu i w grobowcu Slavín leżą Dvořák\, Smetana\, Mucha i Čapek. 
+ Na zachód słońca (ok. 16:20) wrócisz tu na zachodnie mury po kolacji
+ .\nProwadź: https://www.google.com/maps/dir/?api=1&destination=50.06442
+ \,14.41788&travelmode=walking
+LOCATION:V Pevnosti\, Praha 2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Wyszehrad
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d1-ukroka@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261114T143000Z
+DTEND:20261114T151500Z
+SUMMARY:U Kroka · rezerwacja
+DESCRIPTION:Rodzinna restauracja u stóp Wyszehradu. Czeska klasyka o kla
+ sę lepsza niż w typowej gospodzie\, a ceny wciąż są rozsądne. Wszy
+ stkie przewodniki radzą rezerwować.\nProwadź: https://www.google.com/
+ maps/dir/?api=1&destination=50.06663\,14.41788&travelmode=walking
+LOCATION:Vratislavova 28\, Praha 2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:U Kroka · rezerwacja
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d1-zachod@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261114T152500Z
+DTEND:20261114T160000Z
+SUMMARY:Zachód słońca na murach Wyszehradu
+DESCRIPTION:Po kolacji wróć na zachodnie mury: ok. 16:20 zachodzi sło
+ ńce\, a złota godzina trwa jeszcze chwilę. Widok na Wełtawę i Zamek
+ .\nProwadź: https://www.google.com/maps/dir/?api=1&destination=50.06442
+ \,14.41788&travelmode=walking
+LOCATION:V Pevnosti\, Praha 2
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Zachód słońca na murach Wyszehradu
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dzien-1-t1700@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261114T160000Z
+DTEND:20261114T161000Z
+SUMMARY:Przejazd: Powrót do hotelu ok. 30 min: tramwaj z przystanku 
+DESCRIPTION:Powrót do hotelu ok. 30 min: tramwaj z przystanku Výtoň al
+ bo 15 min pieszo do metra C Vyšehrad → Florenc. Aplikacja PID pokaże
+  szybszą opcję.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Przejazd: Powrót do hotelu ok. 30 min: tramwaj z przystanku 
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d1-hotel@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261114T164500Z
+DTEND:20261114T184500Z
+SUMMARY:Hotel: zameldowanie
+DESCRIPTION:Baza na dwie noce w Karlinie\, 5 min od metra Florenc (linie 
+ B i C). Plecak masz ze sobą od lotniska\, więc po kolacji zameldowanie
+  i odpoczynek. Godziny zameldowania w hotelu nie sprawdzałem.\nProwadź
+ : https://www.google.com/maps/dir/?api=1&destination=50.09247\,14.44172&
+ travelmode=walking
+LOCATION:Prvního pluku 29\, Praha 8 – Karlín
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Hotel: zameldowanie
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d1-pivoklub@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261114T190000Z
+DTEND:20261114T210000Z
+SUMMARY:Pivovarský klub (opcja)
+DESCRIPTION:Pub 6 min od hotelu: sześć rotujących kranów z małych cz
+ eskich browarów i czeska kuchnia (gulasz\, pieczony boczek).\nProwadź:
+  https://www.google.com/maps/dir/?api=1&destination=50.09052\,14.44152&t
+ ravelmode=walking
+LOCATION:Křižíkova 17\, Praha 8
+END:VEVENT
+BEGIN:VEVENT
+UID:d1-motyle@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261114T191500Z
+DTEND:20261114T192500Z
+SUMMARY:Motyle Spitfire na domu Máj (opcja)
+DESCRIPTION:Dwa wielkie motyle z kadłubów Spitfire'ów Davida Černego 
+ na fasadzie domu towarowego Máj. Machają skrzydłami i wg przewodnikó
+ w świecą po zmroku\, więc wieczorem to najlepszy czas.\nProwadź: htt
+ ps://www.google.com/maps/dir/?api=1&destination=50.08209\,14.41969&trave
+ lmode=walking
+LOCATION:Národní 63/26\, Praha 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d1-kafka@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261114T192500Z
+DTEND:20261114T193000Z
+SUMMARY:Obracająca się głowa Kafki (opcja)
+DESCRIPTION:Kinetyczna rzeźba Davida Černego przed galerią Quadrio: g
+ łowa Kafki z warstw metalu\, które obracają się osobno. Z zewnątrz\
+ , bez biletu.\nProwadź: https://www.google.com/maps/dir/?api=1&destinat
+ ion=50.0815\,14.42015&travelmode=walking
+LOCATION:przed Quadrio\, Spálená 22\, Praha 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d1-flamingo@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261114T193500Z
+DTEND:20261114T203500Z
+SUMMARY:Green Flamingo Absinth Bar
+DESCRIPTION:Bar z absyntem podpalanym przed podaniem\, na Starym Mieście
+ . Od Quadria i Máj to ok. 650 m\, czyli 8–10 min pieszo.\nProwadź: h
+ ttps://www.google.com/maps/dir/?api=1&destination=50.08587\,14.41928&tra
+ velmode=walking
+LOCATION:Jilská 22\, Praha 1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Green Flamingo Absinth Bar
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d1-shrink@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261114T204500Z
+DTEND:20261114T221500Z
+SUMMARY:Anonymous Shrink's Office (opcja)
+DESCRIPTION:Piwniczny speakeasy\, w którym drink powstaje z plam Rorscha
+ cha (reels). Opcja zamiast Pivovarskiego klubu\, 15 min metrem B z Flore
+ nc do Národní.\nProwadź: https://www.google.com/maps/dir/?api=1&desti
+ nation=50.08035\,14.42224&travelmode=walking
+LOCATION:Jungmannova 23/11\, Praha 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d1-kellyxir@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261114T204500Z
+DTEND:20261114T221500Z
+SUMMARY:Kellyxir (pub\, albo zamiast Shrink's) (opcja)
+DESCRIPTION:Pub z konta kellyxir2020 na Instagramie. Adres od ciebie: Jun
+ gmannova 11. To ten sam numer co Anonymous Shrink's Office (Jungmannova 
+ 23/11)\, więc może to ten sam budynek. Nie sprawdzałem\, czy to osobn
+ y lokal.\nProwadź: https://www.google.com/maps/dir/?api=1&destination=5
+ 0.08035\,14.42224&travelmode=walking
+LOCATION:Jungmannova 11\, Praha 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d2-eska@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261115T080000Z
+DTEND:20261115T085000Z
+SUMMARY:Eska
+DESCRIPTION:Piekarnia w dawnej hali fabrycznej\, 10 min pieszo od hotelu.
+  Chleb z pieca opalanego drewnem bukowym\, a przy stolikach mieszkańcy 
+ Karlína\, nie wycieczki.\nProwadź: https://www.google.com/maps/dir/?ap
+ i=1&destination=50.09133\,14.45442&travelmode=walking
+LOCATION:Pernerova 49\, Praha 8 – Karlín
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Eska
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dzien-2-t950@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261115T085000Z
+DTEND:20261115T090000Z
+SUMMARY:Przejazd: Metro B Křižíkova → Náměstí Republiky (2 przyst
+ ank
+DESCRIPTION:Metro B Křižíkova → Náměstí Republiky (2 przystanki).
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Przejazd: Metro B Křižíkova → Náměstí Republiky (2 pr
+ zystank
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d2-obecni@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261115T090500Z
+DTEND:20261115T091500Z
+SUMMARY:Brama Prochowa i Dom Miejski
+DESCRIPTION:Gotycka brama do Starego Miasta tuż obok najpiękniejszego s
+ ecesyjnego gmachu Pragi. Tu zaczyna się Droga Królewska.\nProwadź: ht
+ tps://www.google.com/maps/dir/?api=1&destination=50.087\,14.428&travelmo
+ de=walking
+LOCATION:náměstí Republiky 5\, Praha 1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Brama Prochowa i Dom Miejski
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d2-ungelt@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261115T092000Z
+DTEND:20261115T094500Z
+SUMMARY:Dziedziniec Ungelt i kościół św. Jakuba
+DESCRIPTION:Dawna komora celna kupców\, schowana za kościołem Tyńskim
+ : cichy dziedziniec 2 min od Rynku. U św. Jakuba barokowe wnętrze i za
+ suszona ręka złodzieja przy wejściu.\nProwadź: https://www.google.co
+ m/maps/dir/?api=1&destination=50.08801\,14.42373&travelmode=walking
+LOCATION:Týnský dvůr\, Praha 1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Dziedziniec Ungelt i kościół św. Jakuba
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d2-tynska@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261115T094500Z
+DTEND:20261115T095000Z
+SUMMARY:Týnská 7: pomnik Václava Budovca
+DESCRIPTION:Posąg Václava Budovca dłuta Antonína Bílka\, w drodze z 
+ Ungeltu do Rynku. Pomysł z konta @prague.location.\nProwadź: https://w
+ ww.google.com/maps/dir/?api=1&destination=50.08804\,14.42292&travelmode=
+ walking
+LOCATION:Týnská 7\, Praha 1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Týnská 7: pomnik Václava Budovca
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d2-orloj@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261115T095000Z
+DTEND:20261115T101000Z
+SUMMARY:Rynek Staromiejski i Orloj
+DESCRIPTION:Kościół Tyński\, ratusz i zegar astronomiczny z 1410 roku
+ . O 11:00 rusza pokaz apostołów\, który ogląda się z ulicy. W niedz
+ ielę rano jest tu jeszcze luźno.\nProwadź: https://www.google.com/map
+ s/dir/?api=1&destination=50.087008\,14.420917&travelmode=walking
+LOCATION:Staroměstské náměstí 1\, Praha 1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Rynek Staromiejski i Orloj
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d2-zidovske@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261115T101500Z
+DTEND:20261115T121500Z
+SUMMARY:Józefów: Muzeum Żydowskie
+DESCRIPTION:Najlepiej zachowany zespół dawnej dzielnicy żydowskiej w E
+ uropie Środkowej: Synagoga Pinkasa z nazwiskami blisko 80 tys. ofiar Za
+ głady\, Stary Cmentarz Żydowski\, Staronowa i Hiszpańska Synagoga.\nP
+ rowadź: https://www.google.com/maps/dir/?api=1&destination=50.08928\,14
+ .417&travelmode=walking
+LOCATION:U Staré školy 141/1\, Praha 1 – Josefov
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Józefów: Muzeum Żydowskie
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d2-pernik@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261115T121500Z
+DTEND:20261115T122500Z
+SUMMARY:Perníčkův sen
+DESCRIPTION:Sklepik ze świeżymi piernikami z reelsów\, 5 min od Synago
+ gi Pinkasa i 4 min od Lokálu Dlouhááá.\nProwadź: https://www.google
+ .com/maps/dir/?api=1&destination=50.09141\,14.42599&travelmode=walking
+LOCATION:Haštalská 21\, Praha 1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Perníčkův sen
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d2-obiad@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261115T123000Z
+DTEND:20261115T134000Z
+SUMMARY:Obiad bez rezerwacji
+DESCRIPTION:Nie masz tu stolika\, a w tej okolicy jest sporo lokali. Wybi
+ erz na miejscu i omijaj menu ze zdjęciami przy Rynku. Lokál Dlouháá
+ á (Dlouhá 33) jest po drodze\, ale stolik masz tam dopiero w poniedzia
+ łek.\nProwadź: https://www.google.com/maps/dir/?api=1&destination=50.0
+ 905\,14.4238&travelmode=walking
+LOCATION:Dlouhá\, Praha 1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Obiad bez rezerwacji
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d2-metronom@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261115T140000Z
+DTEND:20261115T141500Z
+SUMMARY:Metronom na Letnej
+DESCRIPTION:Stoi w miejscu dawnego pomnika Stalina. Taras z widokiem na m
+ osty i dachy Starego Miasta.\nProwadź: https://www.google.com/maps/dir/
+ ?api=1&destination=50.09472\,14.41556&travelmode=walking
+LOCATION:Letenské sady\, Praha 7
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Metronom na Letnej
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d2-hanavsky@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261115T142000Z
+DTEND:20261115T145500Z
+SUMMARY:Widok spod Pawilonu Hanavskiego
+DESCRIPTION:Najbardziej znany widok na kaskadę mostów na Wełtawie. Tu 
+ złap złotą godzinę przed zachodem.\nProwadź: https://www.google.com
+ /maps/dir/?api=1&destination=50.09364\,14.4126&travelmode=walking
+LOCATION:Letenské sady 173\, Praha 7
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Widok spod Pawilonu Hanavskiego
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dzien-2-t1605@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261115T150500Z
+DTEND:20261115T151500Z
+SUMMARY:Przejazd: Do Café Savoy: tramwajem albo pieszo przez Čechův 
+DESCRIPTION:Do Café Savoy: tramwajem albo pieszo przez Čechův most i S
+ tare Miasto na Małą Stronę\, ok. 35–40 min (szacunek\, sprawdź po
+ łączenie w aplikacji PID). Bądź w Savoy przed 16:45.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Przejazd: Do Café Savoy: tramwajem albo pieszo przez Čechů
+ v 
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d2-savoy@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261115T154500Z
+DTEND:20261115T170000Z
+SUMMARY:Café Savoy · rezerwacja
+DESCRIPTION:Kawiarnia wiedeńska z 1893 roku\, 2 min od dolnej stacji kol
+ ejki. Wieczorem jest kuchnia francusko-czeska.\nProwadź: https://www.go
+ ogle.com/maps/dir/?api=1&destination=50.08093\,14.40722&travelmode=walki
+ ng
+LOCATION:Vítězná 5\, Praha 5 – Malá Strana
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Café Savoy · rezerwacja
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dzien-2-t1800@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261115T170000Z
+DTEND:20261115T171000Z
+SUMMARY:Przejazd: Z Café Savoy do Planetarium (Královská obora 233\, 
+DESCRIPTION:Z Café Savoy do Planetarium (Královská obora 233\, Praha 7
+ ) ok. 40 min tramwajem i pieszo\, połączenie sprawdź w aplikacji PID.
+  Wybierz seans na ok. 19:00 na planetum.cz.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Przejazd: Z Café Savoy do Planetarium (Královská obora 233
+ \, 
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d2-planet@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261115T180000Z
+DTEND:20261115T190000Z
+SUMMARY:Planetárium Praha
+DESCRIPTION:Planetarium w Holešovicach\, w którym oglądasz seanse na k
+ opule i wystawy o kosmosie. Z twojej listy reelsów („immersive experi
+ ence”).\nProwadź: https://www.google.com/maps/dir/?api=1&destination=
+ 50.1048\,14.4277&travelmode=walking
+LOCATION:Královská obora 233\, Praha 7
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Planetárium Praha
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dzien-2-t2000@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261115T190000Z
+DTEND:20261115T191000Z
+SUMMARY:Przejazd: Z Planetarium do hotelu ok. 35 min: tramwajem do m
+DESCRIPTION:Z Planetarium do hotelu ok. 35 min: tramwajem do metra C Nád
+ raží Holešovice i dalej metrem C do Florenc\, połączenie sprawdź w
+  PID.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Przejazd: Z Planetarium do hotelu ok. 35 min: tramwajem do m
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d2-fotohyb@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261115T193500Z
+DTEND:20261115T194500Z
+SUMMARY:Fotobudka (Hybernská) (opcja)
+DESCRIPTION:Trzecia fotobudka z twojej listy. Hybernská leży 6 min pies
+ zo od Náměstí Republiky i po drodze do Lokálu Hamburk.\nProwadź: ht
+ tps://www.google.com/maps/dir/?api=1&destination=50.08705\,14.42966&trav
+ elmode=walking
+LOCATION:Hybernská 998/4\, Praha 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d2-hamburk@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261115T200000Z
+DTEND:20261115T213000Z
+SUMMARY:Lokál Hamburk (opcja)
+DESCRIPTION:8 min od hotelu. Po wczesnej kolacji w Savoy tylko piwo albo 
+ coś lekkiego. Jeśli wolisz piwo z małych browarów\, idź do Pivovars
+ kiego klubu.\nProwadź: https://www.google.com/maps/dir/?api=1&destinati
+ on=50.0931439\,14.4466954&travelmode=walking
+LOCATION:Sokolovská 55\, Praha 8 – Karlín
+END:VEVENT
+BEGIN:VEVENT
+UID:d3-eska@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261116T070000Z
+DTEND:20261116T074000Z
+SUMMARY:Eska albo śniadanie w hotelu
+DESCRIPTION:W dni robocze karta jest inna niż weekendowa\, ceny sprawdź
+  na miejscu. Potem wymeldowanie\, plecak idzie z tobą.\nProwadź: https
+ ://www.google.com/maps/dir/?api=1&destination=50.09133\,14.45442&travelm
+ ode=walking
+LOCATION:Pernerova 49\, Praha 8 – Karlín
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Eska albo śniadanie w hotelu
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dzien-3-t850@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261116T075000Z
+DTEND:20261116T080000Z
+SUMMARY:Przejazd: Metro B Florenc → Národní třída (3 przystanki)\, 
+ tr
+DESCRIPTION:Metro B Florenc → Národní třída (3 przystanki)\, tramwa
+ j 22 do Pohořelec (ok. 15 min). Razem ok. 35 min. Sprawdź połączenie
+  w aplikacji PID na wypadek objazdów.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Przejazd: Metro B Florenc → Národní třída (3 przystanki
+ )\, tr
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d3-strahov@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261116T083000Z
+DTEND:20261116T091500Z
+SUMMARY:Klasztor i biblioteka na Strahowie
+DESCRIPTION:Dwie barokowe sale biblioteczne\, Teologiczną i Filozoficzn
+ ą\, ogląda się z progu. Obok jest ogród klasztorny z jednym z najlep
+ szych widoków na Pragę\, i to za darmo.\nProwadź: https://www.google.
+ com/maps/dir/?api=1&destination=50.08664\,14.39009&travelmode=walking
+LOCATION:Strahovské nádvoří 1\, Praha 1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Klasztor i biblioteka na Strahowie
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d3-loreta@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261116T091500Z
+DTEND:20261116T094500Z
+SUMMARY:Loreta i uliczka Nowy Świat
+DESCRIPTION:Barokowa fasada Lorety z kurantem\, a tuż za nią Nový Svě
+ t: najbardziej malownicza uliczka Hradczan\, rano prawie pusta.\nProwad
+ ź: https://www.google.com/maps/dir/?api=1&destination=50.08925\,14.3915
+ 1&travelmode=walking
+LOCATION:Loretánské náměstí 7\, Praha 1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Loreta i uliczka Nowy Świat
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d3-hrad@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261116T095000Z
+DTEND:20261116T115000Z
+SUMMARY:Zamek Praski
+DESCRIPTION:Katedra św. Wita\, Stary Pałac Królewski z salą Władysł
+ awowską\, bazylika św. Jerzego i Złota uliczka. W poniedziałek kated
+ ra jest otwarta od 9:00\, w niedzielę dopiero od 12:00.\nProwadź: http
+ s://www.google.com/maps/dir/?api=1&destination=50.09083\,14.40056&travel
+ mode=walking
+LOCATION:Hradčany\, Praha 1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Zamek Praski
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d3-schody@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261116T115500Z
+DTEND:20261116T121000Z
+SUMMARY:Stare Schody Zamkowe
+DESCRIPTION:Zejście z widokiem na dachy Małej Strony. Potem 10 min ulic
+ ami do mostu.\nProwadź: https://www.google.com/maps/dir/?api=1&destinat
+ ion=50.09212\,14.40753&travelmode=walking
+LOCATION:Staré zámecké schody\, Praha 1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Stare Schody Zamkowe
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d3-brabant@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261116T121000Z
+DTEND:20261116T123000Z
+SUMMARY:U Krále Brabantského
+DESCRIPTION:„Bar sprzed 651 lat”\, działa od 1375 roku\, pod Zamkiem
+ . Piwo albo drink przed obiadem\, 8 min od Starych Schodów.\nProwadź: 
+ https://www.google.com/maps/dir/?api=1&destination=50.08897\,14.40148&tr
+ avelmode=walking
+LOCATION:Thunovská\, Praha 1 – Malá Strana
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:U Krále Brabantského
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d3-karluv@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261116T123500Z
+DTEND:20261116T130000Z
+SUMMARY:Most Karola
+DESCRIPTION:Przejdź na stronę staromiejską i wróć. W poniedziałkowe
+  popołudnie jest luźniej niż w weekend.\nProwadź: https://www.google
+ .com/maps/dir/?api=1&destination=50.08639\,14.41194&travelmode=walking
+LOCATION:Karlův most\, Praha 1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Most Karola
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d3-dlouha@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261116T131500Z
+DTEND:20261116T143000Z
+SUMMARY:Lokál Dlouhááá · rezerwacja
+DESCRIPTION:Najczęściej polecana czeska gospoda w centrum: Pilsner pros
+ to z tanków\, klasyka ze świeżych składników\, ceny dla miejscowych
+ .\nProwadź: https://www.google.com/maps/dir/?api=1&destination=50.09069
+ 31\,14.4257574&travelmode=walking
+LOCATION:Dlouhá 33\, Praha 1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Lokál Dlouhááá · rezerwacja
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d3-kampa@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261116T145500Z
+DTEND:20261116T152000Z
+SUMMARY:Kampa\, Čertovka i Ściana Lennona
+DESCRIPTION:Wyspa tuż przy moście\, młyńskie koło nad kanałem Čert
+ ovka i ściana z graffiti na placu Wielkiego Przeora.\nProwadź: https:/
+ /www.google.com/maps/dir/?api=1&destination=50.08624\,14.40695&travelmod
+ e=walking
+LOCATION:Velkopřevorské náměstí\, Praha 1
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Kampa\, Čertovka i Ściana Lennona
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d3-petrin@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261116T153000Z
+DTEND:20261116T164500Z
+SUMMARY:Kolejka na Petřín i wieża widokowa
+DESCRIPTION:Kolejka wróciła 22.09.2026 z nowymi wagonami. Z wieży wida
+ ć całe miasto\; zachód (ok. 16:18) będzie już za tobą\, ale zobacz
+ ysz Pragę w światłach.\nProwadź: https://www.google.com/maps/dir/?ap
+ i=1&destination=50.0812\,14.4044&travelmode=walking
+LOCATION:Újezd\, Praha 1 (dolna stacja)
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Kolejka na Petřín i wieża widokowa
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dzien-3-t1755@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261116T165500Z
+DTEND:20261116T170500Z
+SUMMARY:Przejazd: Tramwaj 22 z Újezd do Malostranská (ok. 5 min) alb
+DESCRIPTION:Tramwaj 22 z Újezd do Malostranská (ok. 5 min) albo 15 min 
+ pieszo przez Małą Stronę.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Przejazd: Tramwaj 22 z Újezd do Malostranská (ok. 5 min) al
+ b
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dzien-3-t1815@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261116T171500Z
+DTEND:20261116T172500Z
+SUMMARY:Przejazd: Najpóźniej teraz: metro A Malostranská → Nádraž
+ í V
+DESCRIPTION:Najpóźniej teraz: metro A Malostranská → Nádraží Vele
+ slavín (4 przystanki)\, trolejbus 59 → Lotnisko. Ok. 35–40 min. Na 
+ lotnisku ok. 19:00\; bramka zamyka się ok. 20:15 (sprawdź na karcie po
+ kładowej)\, wylot 20:45.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Przejazd: Najpóźniej teraz: metro A Malostranská → Nádr
+ aží V
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:tr-gdn-1@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261114T041000Z
+DTEND:20261114T041500Z
+SUMMARY:5:10 Wyjdź ze Szczecińskiej\, żeby być na peronie SKM pr
+DESCRIPTION:Sobota rano: Szczecińska → lotnisko GDN\nWyjdź ze Szczeci
+ ńskiej\, żeby być na peronie SKM przed 5:25.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:5:10 Wyjdź ze Szczecińskiej\, żeby być na peronie SKM pr
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:tr-gdn-2@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261114T042500Z
+DTEND:20261114T043000Z
+SUMMARY:5:25 SKM z Przymorza-Uniwersytetu do Gdańska Wrzeszcza 
+DESCRIPTION:Sobota rano: Szczecińska → lotnisko GDN\nSKM z Przymorza-U
+ niwersytetu do Gdańska Wrzeszcza (4 min\, przyjazd 5:29). Na stacji Wrz
+ eszcz przesiadka na pociąg PKM (Polregio)\, peron podaje tablica.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:5:25 SKM z Przymorza-Uniwersytetu do Gdańska Wrzeszcza 
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:tr-gdn-3@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261114T045800Z
+DTEND:20261114T050300Z
+SUMMARY:5:58 PKM ze Wrzeszcza do Gdańsk Port Lotniczy\, przyjazd
+DESCRIPTION:Sobota rano: Szczecińska → lotnisko GDN\nPKM ze Wrzeszcza 
+ do Gdańsk Port Lotniczy\, przyjazd 6:21 (23 min). Na przesiadkę masz 2
+ 9 min zapasu.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:5:58 PKM ze Wrzeszcza do Gdańsk Port Lotniczy\, przyjazd
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:tr-gdn-4@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261114T052100Z
+DTEND:20261114T052600Z
+SUMMARY:6:21 Na lotnisku. Do zamknięcia bramki zostaje ok. 1 h 
+DESCRIPTION:Sobota rano: Szczecińska → lotnisko GDN\nNa lotnisku. Do z
+ amknięcia bramki zostaje ok. 1 h 45 min. Masz tylko plecak\, więc nie 
+ ma nadawania bagażu. Płyny w woreczku do 100 ml.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:6:21 Na lotnisku. Do zamknięcia bramki zostaje ok. 1 h 
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:tr-gdn-10@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261114T070500Z
+DTEND:20261114T071000Z
+SUMMARY:8:05 Ostatni moment: bramka się zamyka.
+DESCRIPTION:Sobota rano: Szczecińska → lotnisko GDN\nOstatni moment: b
+ ramka się zamyka.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:8:05 Ostatni moment: bramka się zamyka.
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:tr-gdn-11@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261114T073500Z
+DTEND:20261114T074000Z
+SUMMARY:8:35 Odlot z Gdańska.
+DESCRIPTION:Sobota rano: Szczecińska → lotnisko GDN\nOdlot z Gdańska.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:8:35 Odlot z Gdańska.
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:tr-prg-0@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261114T091000Z
+DTEND:20261114T091500Z
+SUMMARY:10:10 Wyjście z terminala\, kupno biletu 72 h w aplikacji
+DESCRIPTION:Sobota: lotnisko PRG → plac Wacława\nWyjście z terminala\
+ , kupno biletu 72 h w aplikacji PID Lítačka (340 CZK) jeszcze przed we
+ jściem do trolejbusu.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:10:10 Wyjście z terminala\, kupno biletu 72 h w aplikacji
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:tr-prg-1@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261114T092000Z
+DTEND:20261114T092500Z
+SUMMARY:ok. 10:20 Trolejbus 59 do krańcówki Nádraží Veleslavín (aut
+ o
+DESCRIPTION:Sobota: lotnisko PRG → plac Wacława\nTrolejbus 59 do krań
+ cówki Nádraží Veleslavín (autobusu AE nie bierz\, ten bilet go nie 
+ obejmuje).
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ok. 10:20 Trolejbus 59 do krańcówki Nádraží Veleslavín 
+ (auto
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:tr-back-1@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261116T175500Z
+DTEND:20261116T180000Z
+SUMMARY:ok. 18:55 Na lotnisku. Zapas ok. 80 min do zamknięcia bramki
+DESCRIPTION:Poniedziałek: Praga → lotnisko PRG\nNa lotnisku. Zapas ok.
+  80 min do zamknięcia bramki.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ok. 18:55 Na lotnisku. Zapas ok. 80 min do zamknięcia bramki
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:tr-back-2@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261116T191500Z
+DTEND:20261116T192000Z
+SUMMARY:ok. 20:15 Bramka się zamyka (zakładam 30 min przed lotem jak
+DESCRIPTION:Poniedziałek: Praga → lotnisko PRG\nBramka się zamyka (za
+ kładam 30 min przed lotem jak w sobotę\; potwierdź na karcie pokłado
+ wej).
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ok. 20:15 Bramka się zamyka (zakładam 30 min przed lotem ja
+ k
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:tr-back-3@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261116T194500Z
+DTEND:20261116T195000Z
+SUMMARY:20:45 Odlot z Pragi.
+DESCRIPTION:Poniedziałek: Praga → lotnisko PRG\nOdlot z Pragi.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:20:45 Odlot z Pragi.
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:tr-back-4@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261116T210500Z
+DTEND:20261116T211000Z
+SUMMARY:22:05 Lądowanie w Gdańsku.
+DESCRIPTION:Poniedziałek: Praga → lotnisko PRG\nLądowanie w Gdańsku.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:22:05 Lądowanie w Gdańsku.
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:tr-gdn-back-1@przewodnik
+DTSTAMP:20261117T231358Z
+DTSTART:20261116T215400Z
+DTEND:20261116T215900Z
+SUMMARY:22:54 Realny wariant: PKM z lotniska 22:54\, Wrzeszcz 23:
+DESCRIPTION:Poniedziałek wieczorem: lotnisko GDN → Szczecińska\nRealn
+ y wariant: PKM z lotniska 22:54\, Wrzeszcz 23:15\, SKM 23:40\, Przymorze
+ -Uniwersytet 23:44\, potem 6–8 min pieszo do Szczecińskiej.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:22:54 Realny wariant: PKM z lotniska 22:54\, Wrzeszcz 23:
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

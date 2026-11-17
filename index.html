@@ -188,7 +188,16 @@ details.card>*:not(summary){margin-top:10px}
 
 .move>div{flex:1;min-width:0}.move .btns{margin-top:8px}.move .btn{min-height:40px;padding:0 12px;font-size:.88rem}
 .btn.rep{border-style:dashed;color:var(--muted)}
+.gbtn{position:absolute;top:10px;right:max(10px,env(safe-area-inset-right,0px));z-index:700;width:48px;height:48px;display:grid;place-items:center;border:3px solid var(--frame);border-radius:4px;background:var(--card);color:#1A73E8;box-shadow:0 2px 8px #0003}
+.gbtn svg{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round}
+.gdist{position:absolute;left:10px;right:10px;bottom:calc(75px + env(safe-area-inset-bottom,0px));z-index:700;margin:0;padding:8px 12px;background:var(--card);border:3px solid var(--frame);border-radius:4px;font-size:.9rem;line-height:1.3;box-shadow:0 2px 8px #0003}
 </style>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#111111">
+
 </head><body>
 <script>window.SYNC={"url": "https://script.google.com/macros/s/AKfycbwq7bWJbeqUU051Y57br7BwmvXOGzlia7xxNmKHCtjPBv0KbTXwAaOBG5OjyVyAcs0JhA/exec", "key": "pDBUivFPZ1B_miG-FAsy6KP-"};</script>
 <a class="skip" href="#app">Przejdź do treści</a>
@@ -199,6 +208,8 @@ details.card>*:not(summary){margin-top:10px}
   <section class="tab" id="tab-mapa" aria-label="Mapa" hidden>
     <div id="map" role="region" aria-label="Mapa Pragi z miejscami"></div>
     <button type="button" class="fbtn" id="fbtn" aria-expanded="false" aria-controls="fpanel"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h10M18 7h2M4 17h2M10 17h10"/><circle cx="16" cy="7" r="2"/><circle cx="8" cy="17" r="2"/></svg><span id="flab">Filtry</span></button>
+    <button type="button" class="gbtn" id="gbtn" hidden aria-label="Pokaż moją pozycję"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="7"/><circle cx="12" cy="12" r="2.5" fill="currentColor"/><path d="M12 1v4M12 19v4M1 12h4M19 12h4"/></svg></button>
+    <p class="gdist" id="gdist" role="status" hidden></p>
     <div class="fpanel" id="fpanel" hidden>
       <h3>Dzień</h3><div class="chips" id="chips" role="group" aria-label="Filtr mapy"></div>
       <h3>Komunikacja miejska</h3><div class="chips" id="tchips" role="group" aria-label="Komunikacja miejska na mapie"></div>
@@ -380,7 +391,10 @@ details.card>*:not(summary){margin-top:10px}
   }
 
   function more() {
-    $('#more').innerHTML =
+    $('#more').innerHTML = (SYNC ?
+      '<div class="card"><h2>Na telefon</h2><p class="small">Plan w kalendarzu iPhone’a: telefon przypomni 10 min przed każdym punktem, 30 min przed rezerwacją i 5 min przed przejazdem.</p>' +
+      '<div class="btns"><a class="btn pri" href="plan.ics">Dodaj plan do kalendarza</a></div>' +
+      '<p class="small muted" style="margin-top:10px">Bez internetu (samolot): otwórz tę stronę raz z internetem, potem w Safari Udostępnij → „Do ekranu początkowego”. Aplikacja z ikony działa offline razem z mapą; wspólna lista wyśle zaznaczenia, gdy wróci internet.</p></div>' : '') +
       '<details class="card" open><summary>Rezerwacje i zadania</summary><div id="resv">' + resv() + '</div></details>' +
       '<details class="card"><summary>Ściąga</summary><p><b>Przelicznik</b> (NBP 0,1797 zł za 1 CZK, 9.10.2026)</p><div class="calc"><input id="czk" type="number" inputmode="decimal" value="100" aria-label="Kwota w CZK"><span>CZK ≈ <b id="pln" class="tn"></b> zł</span></div>' +
       '<p><b>Bilet PID 72 h</b>: 340 CZK w aplikacji PID Lítačka. Aktywuj go w sobotę ok. 10:10, wtedy działa do wtorku rano, czyli też w drodze na lotnisko w poniedziałek.</p>' +
@@ -420,7 +434,7 @@ details.card>*:not(summary){margin-top:10px}
   }
 
   document.addEventListener('click', function (e) {
-    var el = e.target.closest('[data-tab],[data-go],[data-seg],[data-now-done],[data-f],.head,[data-pop-done],[data-del],[data-t],[data-p],[data-rep],[data-hist],#fbtn');
+    var el = e.target.closest('[data-tab],[data-go],[data-seg],[data-now-done],[data-f],.head,[data-pop-done],[data-del],[data-t],[data-p],[data-rep],[data-hist],#fbtn,#gbtn');
     if (!el) return;
     if (el.dataset.rep) {
       var tx = prompt('Co jest nie tak? Zapiszę to do poprawki.\n(' + el.dataset.rep + ')');
@@ -429,6 +443,7 @@ details.card>*:not(summary){margin-top:10px}
     }
     else if (el.dataset.p) { var pl = el.dataset.p; pOn[pl] = !pOn[pl]; try { localStorage.setItem('praga-poi', JSON.stringify(pOn)); } catch (e3) {} applyPoi(); }
     else if (el.dataset.t) { var id = el.dataset.t; if (dayMode()) return; tOn[id] = !tOn[id]; try { localStorage.setItem('praga-transit2', JSON.stringify(tOn)); } catch (e2) {} applyTransit(); }
+    else if (el.id === 'gbtn') locate();
     else if (el.id === 'fbtn') { var fp = $('#fpanel'); fp.hidden = !fp.hidden; el.setAttribute('aria-expanded', !fp.hidden); }
     else if (el.dataset.hist !== undefined) { var hp = el.nextElementSibling, ho = el.getAttribute('aria-expanded') === 'true'; el.setAttribute('aria-expanded', !ho); hp.hidden = ho; el.lastChild.textContent = ho ? 'Rozwiń historię' : 'Zwiń historię'; }
     else if (el.dataset.del) { extra = extra.filter(function (x) { return x.id !== el.dataset.del; }); done.delete(el.dataset.del); saveExtra(); save(); var yd = window.scrollY; renderPack(); window.scrollTo(0, yd); }
@@ -560,6 +575,31 @@ details.card>*:not(summary){margin-top:10px}
     applyPoi();
   }
 
+  /* ---------- moja pozycja: niebieska kropka i ile zostało do następnego punktu planu (tylko własna strona) ---------- */
+  var meMk = null, meAcc = null, meLL = null;
+  function nextStop() { var now = Date.now(); return EV.filter(function (v) { return v.kind === 'stop' && v.e > now && v.it.ll && !done.has(v.it.id); })[0]; }
+  function meInfo() {
+    var el = $('#gdist'), nx = nextStop();
+    if (!meLL) return;
+    el.hidden = false;
+    if (!nx) { el.textContent = 'Plan na ten wyjazd się skończył.'; return; }
+    var m = map.distance(meLL, nx.it.ll), min = Math.max(1, Math.round(m * 1.3 / 80));  /* ponytail: linia prosta x1,3 i 80 m/min; dokładnie pokaże „Prowadź” */
+    el.innerHTML = 'Następny punkt: <b>' + esc(nx.it.name) + '</b> (' + hm(nx.s) + ') · ok. ' + (m >= 1000 ? (m / 1000).toFixed(1).replace('.', ',') + ' km' : Math.round(m / 10) * 10 + ' m') + ', ok. ' + min + ' min pieszo';
+  }
+  function locate() {
+    if (meLL) { map.setView(meLL, Math.max(map.getZoom(), 16)); return; }
+    var el = $('#gdist'); el.textContent = 'Szukam twojej pozycji…'; el.hidden = false;
+    navigator.geolocation.watchPosition(function (p) {
+      var first = !meLL; meLL = [p.coords.latitude, p.coords.longitude];
+      if (!meMk) {
+        meAcc = L.circle(meLL, { radius: p.coords.accuracy, color: '#1A73E8', weight: 1, fillOpacity: 0.12, interactive: false }).addTo(map);
+        meMk = L.circleMarker(meLL, { radius: 8, color: '#fff', weight: 3, fillColor: '#1A73E8', fillOpacity: 1, interactive: false }).addTo(map);
+      } else { meMk.setLatLng(meLL); meAcc.setLatLng(meLL).setRadius(p.coords.accuracy); }
+      if (first) map.setView(meLL, Math.max(map.getZoom(), 16));
+      meInfo();
+    }, function () { el.textContent = 'Brak dostępu do lokalizacji. Włącz ją: Ustawienia → Prywatność → Lokalizacja → Safari.'; }, { enableHighAccuracy: true, maximumAge: 15000 });
+  }
+
   function initMap() {
     if (map) return;
     var note = $('#mapnote');
@@ -579,6 +619,7 @@ details.card>*:not(summary){margin-top:10px}
     pinStyle(); setTimeout(pinStyle, 0);
     buildTransit();
     buildPoi();
+    if (SYNC && navigator.geolocation) $('#gbtn').hidden = false;  /* w artefakcie Claude lokalizacja jest zablokowana */
     fetch('map.json').then(function (r) { if (!r.ok) throw 0; return r.json(); }).then(function (d) {
       L.polygon(d.parks.map(function (r) { return [r]; }), { stroke: false, fillColor: '#D6DEC4', fillOpacity: 1, interactive: false }).addTo(map).bringToBack();
       L.polyline(d.minor, { color: '#E2D7C6', weight: 1.2, interactive: false }).addTo(map);
@@ -626,6 +667,7 @@ details.card>*:not(summary){margin-top:10px}
     }).catch(function () { syncNote(true); }).then(function () { syncBusy = false; if (syncAgain) { syncAgain = false; sync(); } });
   }
   if (SYNC) {
+    if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(function () {});  /* offline: strona.py */
     sync();
     setInterval(function () { if (!document.hidden) sync(); }, 15000);
     document.addEventListener('visibilitychange', function () { if (!document.hidden) sync(); });
